@@ -4,8 +4,10 @@ M.copilot = {
   -- Possible configurable fields can be found on:
   -- https://github.com/zbirenbaum/copilot.lua#setup-and-configuration
   suggestion = {
-    auto_trigger = true,
-    auto_refresh = true,
+    enable = false,
+  },
+  panel = {
+    enable = false,
   },
 }
 
