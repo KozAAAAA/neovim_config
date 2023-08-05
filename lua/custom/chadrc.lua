@@ -1,5 +1,5 @@
 ---@type ChadrcConfig 
  local M = {}
- M.ui = {theme = 'oxocarbon'}
+ M.ui = {theme = 'everblush'}
  M.plugins = "custom.plugins"
  return M
