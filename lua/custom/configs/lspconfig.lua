@@ -15,3 +15,9 @@ lspconfig.clangd.setup {
     "--offset-encoding=utf-16",
   },
 }
+
+lspconfig.pyright.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = { "python" },
+}
